@@ -86,7 +86,7 @@
                 &mkp RCLK
                 &mo 1
                 //NFC front bottom
-                &boot
+                &mkp MB5
                 &mkp MB4
             >;
 
