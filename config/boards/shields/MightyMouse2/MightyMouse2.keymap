@@ -81,10 +81,10 @@
                 &Us 
                 &none
                 &Rs
-                //クリック L R
+                //クリックLR
                 &mkp RCLK
                 &mo 1
-                //NFC front bottom
+                //NFCfrontbottom
                 &mkp MB5
                 &mkp MB4
             >;
