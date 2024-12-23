@@ -67,7 +67,7 @@
             tapping-term-ms = <3000>;
             quick-tap-ms = <400>;
             require-prior-idle-ms = <200>;
-            bindings = <&kp A>, <&bootloader>;
+            bindings = <&kp A>, <&kp B>;
         };
     };
 
