@@ -72,10 +72,10 @@
                 &Us 
                 &none
                 &Rs
-                //クリック
+                //クリック L R
                 &mkp RCLK
                 &mo 1
-                //NFC
+                //NFC front bottom
                 &bootloader
                 &mkp MB4
             >;
