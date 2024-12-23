@@ -60,11 +60,11 @@
             tap-ms = <20>;
         };
 
-        boot: require_prior_idle {
+        rpi: require_prior_idle {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "tap-preferred";
-            tapping-term-ms = <3000>;
+            tapping-term-ms = <1000>;
             quick-tap-ms = <400>;
             require-prior-idle-ms = <200>;
             bindings = <&kp A>, <&kp B>;
