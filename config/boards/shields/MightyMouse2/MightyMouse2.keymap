@@ -60,14 +60,14 @@
             tap-ms = <20>;
         };
 
-            magic: magic {
+            rst: reset {
             compatible = "zmk,behavior-hold-tap";
             label = "MAGIC_HOLD_TAP";
             #binding-cells = <2>;
             flavor = "tap-preferred";
             tapping-term-ms = <200>;
             quick-tap-ms = <160>;
-            bindings = <&bootloader>, <&kp>;
+            bindings = <&mkp>, <&bootloader>;
         };
 
     };
