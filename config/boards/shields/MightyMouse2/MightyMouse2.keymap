@@ -60,7 +60,7 @@
             tap-ms = <20>;
         };
 
-        rpi: require_prior_idle {
+        boot: require_prior_idle {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "tap-preferred";
@@ -86,7 +86,7 @@
                 &mkp RCLK
                 &mo 1
                 //NFC front bottom
-                &rpi
+                &boot
                 &mkp MB4
             >;
 
