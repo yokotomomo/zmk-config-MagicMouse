@@ -60,15 +60,15 @@
             tap-ms = <20>;
         };
 
-        rpi: require_prior_idle {
-            compatible = "zmk,behavior-hold-tap";
-            #binding-cells = <2>;
-            flavor = "tap-preferred";
-            tapping-term-ms = <1000>;
-            quick-tap-ms = <400>;
-            require-prior-idle-ms = <200>;
-            bindings = <&kp A>, <&kp B>;
-        };
+         pht: positional_hold_tap {
+                    compatible = "zmk,behavior-hold-tap";
+                    #binding-cells = <2>;
+                    flavor = "hold-preferred";
+                    tapping-term-ms = <400>;
+                    quick-tap-ms = <200>;
+                    bindings = <&kp A>, <&kp A>;
+                    hold-trigger-key-positions = <1>;    // <---[[the W key]]
+                };
     };
 
     keymap {
