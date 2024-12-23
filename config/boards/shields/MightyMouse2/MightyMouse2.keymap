@@ -88,7 +88,7 @@
                 &mo 1
                 //NFCfrontbottom
                 &mkp MB5
-                &rst MB4
+                &rst MB4 0
             >;
 
         };
