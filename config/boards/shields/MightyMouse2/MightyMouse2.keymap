@@ -84,10 +84,10 @@
                 &none
                 &Rs
                 //クリックLR
-                &bootloader
+                &mkp RCLK
                 &mo 1
                 //NFCfrontbottom
-                &mkp MB5
+                &bootloader
                 &rst A B
             >;
 
