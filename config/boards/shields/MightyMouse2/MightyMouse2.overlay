@@ -1,4 +1,4 @@
-d
+
 / {
         chosen {
             zmk,kscan = &default_kscan;
