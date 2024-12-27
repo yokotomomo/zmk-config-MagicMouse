@@ -10,7 +10,7 @@
         Us: Us {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            wait-ms = <10>;
+            wait-ms = <20>;
             tap-ms = <20>;
             bindings = 
                 <&macro_press &msc SCRL_UP>,
@@ -20,7 +20,7 @@
         Ds: Ds {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            wait-ms = <10>;
+            wait-ms = <20>;
             tap-ms = <20>;
             bindings = 
                 <&macro_press &msc SCRL_DOWN>,
@@ -30,7 +30,7 @@
         Ls: Ls {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            wait-ms = <10>;
+            wait-ms = <20>;
             tap-ms = <20>;
             bindings = 
                 <&macro_press &msc SCRL_LEFT>,
@@ -40,7 +40,7 @@
         Rs: Rs {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            wait-ms = <10>;
+            wait-ms = <20>;
             tap-ms = <20>;
             bindings = 
                 <&macro_press &msc SCRL_RIGHT>,
