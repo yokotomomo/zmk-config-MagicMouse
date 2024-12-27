@@ -84,7 +84,7 @@
                 &Rs
                 //クリックLR
                 &mo 1
-                &kp A
+                &mkp LCLK
                 //NFCfrontbottom
                 &bootloader
                 &kp D
@@ -102,7 +102,7 @@
                 &trans
                 //クリック
                 &trans
-                &kp B
+                &mkp RCLK
                 //NFC
                 &trans
                 &trans
