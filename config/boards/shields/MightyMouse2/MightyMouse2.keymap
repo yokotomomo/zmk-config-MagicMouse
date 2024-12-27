@@ -83,7 +83,7 @@
                 &none
                 &Rs
                 //クリックLR
-                &mo B
+                &mo 1
                 &kp A
                 //NFCfrontbottom
                 &bootloader
