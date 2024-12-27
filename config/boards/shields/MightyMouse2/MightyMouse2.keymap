@@ -104,7 +104,7 @@
                 &trans
                 &kp B
                 //NFC
-               &trans
+                &trans
                 &trans
             >;
         };
