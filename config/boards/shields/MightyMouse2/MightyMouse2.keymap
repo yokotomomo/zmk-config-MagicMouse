@@ -10,7 +10,7 @@
         Us: Us {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            wait-ms = <5>;
+            wait-ms = <10>;
             tap-ms = <20>;
             bindings = 
                 <&macro_press &msc SCRL_UP>,
@@ -20,7 +20,7 @@
         Ds: Ds {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            wait-ms = <5>;
+            wait-ms = <10>;
             tap-ms = <20>;
             bindings = 
                 <&macro_press &msc SCRL_DOWN>,
@@ -66,7 +66,7 @@
             tapping-term-ms =<5000>;
             quick-tap-ms = <200>;
             require-prior-idle-ms = <125>;
-            bindings = <&bootloader>, <&kp>;
+            bindings = <&bootloader>, <&mkp>;
         };
 
     };
@@ -86,8 +86,8 @@
                 &mo 1
                 &mkp LCLK
                 //NFCfrontbottom
-                &bootloader
-                &rst 0 D
+                &mkp MB4
+                &rst 0 MB5
             >;
 
         };
