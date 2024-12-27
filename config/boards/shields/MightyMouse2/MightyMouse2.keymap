@@ -86,8 +86,8 @@
                 &mo 1
                 &mkp LCLK
                 //NFCfrontbottom
-                &mkp MB4
-                &rst 0 MB5
+                &mkp MB5
+                &rst 0 MB4
             >;
 
         };
