@@ -59,7 +59,7 @@
             tap-ms = <20>;
         };
 
-            rst: reset {
+            bot: boot {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "hold-preferred";
@@ -67,6 +67,16 @@
             quick-tap-ms = <200>;
             require-prior-idle-ms = <125>;
             bindings = <&bootloader>, <&mkp>;
+        };
+
+            rst: reset {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            flavor = "hold-preferred";
+            tapping-term-ms =<5000>;
+            quick-tap-ms = <200>;
+            require-prior-idle-ms = <125>;
+            bindings = <&sys_reset>, <&mkp>;
         };
 
     };
@@ -86,8 +96,8 @@
                 &mo 1
                 &mkp LCLK
                 //NFCfrontbottom
-                &mkp MB5
-                &rst 0 MB4
+                &rst 0 MB5
+                &bot 0 MB4
             >;
 
         };
