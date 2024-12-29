@@ -7,6 +7,7 @@
         default_kscan: kscan {
             compatible = "zmk,kscan-gpio-direct";
             label = "default_kscan";
+            wakeup-source;
             input-gpios =
                 <&xiao_d 2 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>,
                 <&xiao_d 3 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>,
