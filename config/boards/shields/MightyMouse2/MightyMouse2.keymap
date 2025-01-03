@@ -90,11 +90,11 @@
                 &Ds
                 &Ls
                 &Us 
-                &mo 2
+                &mo 1
                 &Rs
                 //クリックLR
                 &mo 1
-                &mkp LCLK
+                &mkp RCLK
                 //NFCfrontbottom
                 &rst 0 MB5
                 &bot 0 MB4
@@ -112,29 +112,12 @@
                 &trans
                 //クリック
                 &trans
-                &mkp RCLK
+                &mkp LCLK
                 //NFC
                 &trans
                 &trans
             >;
         };
-
-         layer_2 {
-                    bindings = <
-                        //トラックボール
-                        &trans
-                        &trans
-                        &trans
-                        &trans
-                        &trans
-                        //クリック
-                        &trans
-                        &mkp LCLK
-                        //NFC
-                        &trans
-                        &trans
-                    >;
-                };
 
     };
 };
