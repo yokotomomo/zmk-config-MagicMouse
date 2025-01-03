@@ -94,7 +94,7 @@
                 &Rs
                 //クリックLR
                 &mo 1
-                &mkp RCLK
+                &mkp LCLK
                 //NFCfrontbottom
                 &rst 0 MB5
                 &bot 0 MB4
@@ -112,7 +112,7 @@
                 &trans
                 //クリック
                 &trans
-                &mkp LCLK
+                &mkp RCLK
                 //NFC
                 &trans
                 &trans
