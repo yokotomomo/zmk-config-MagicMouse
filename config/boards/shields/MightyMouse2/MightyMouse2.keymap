@@ -63,7 +63,7 @@
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "hold-preferred";
-            tapping-term-ms =<5000>;
+            tapping-term-ms =<8000>;
             quick-tap-ms = <200>;
             require-prior-idle-ms = <125>;
             bindings = <&bootloader>, <&mkp>;
@@ -73,7 +73,7 @@
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "hold-preferred";
-            tapping-term-ms =<5000>;
+            tapping-term-ms =<8000>;
             quick-tap-ms = <200>;
             require-prior-idle-ms = <125>;
             bindings = <&sys_reset>, <&mkp>;
@@ -88,10 +88,10 @@
             bindings = <
                 //トラックボール
                 &Ds
-                &Ls
+                &Rs
                 &Us 
                 &mo 1
-                &Rs
+                &Ls
                 //クリックLR
                 &mo 1
                 &mkp LCLK
