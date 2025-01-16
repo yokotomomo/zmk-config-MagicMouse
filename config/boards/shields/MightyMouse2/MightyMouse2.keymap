@@ -64,7 +64,7 @@
             #binding-cells = <2>;
             flavor = "hold-preferred";
             tapping-term-ms =<8000>;
-            quick-tap-ms = <200>;
+            quick-tap-ms = <300>;
             require-prior-idle-ms = <125>;
             bindings = <&bootloader>, <&mkp>;
         };
@@ -74,7 +74,7 @@
             #binding-cells = <2>;
             flavor = "hold-preferred";
             tapping-term-ms =<8000>;
-            quick-tap-ms = <200>;
+            quick-tap-ms = <300>;
             require-prior-idle-ms = <125>;
             bindings = <&sys_reset>, <&mkp>;
         };
@@ -90,7 +90,7 @@
                 &Ds
                 &Rs
                 &Us 
-                &mo 1
+                &mo 2
                 &Ls
                 //クリックLR
                 &mo 1
@@ -118,6 +118,23 @@
                 &trans
             >;
         };
+
+        layer_2 {
+                    bindings = <
+                        //トラックボール
+                        &trans
+                        &trans
+                        &trans
+                        &trans
+                        &trans
+                        //クリック
+                        &trans
+                        &mkp MCLK
+                        //NFC
+                        &trans
+                        &trans
+                    >;
+                };
 
     };
 };
