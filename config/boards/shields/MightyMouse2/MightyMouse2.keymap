@@ -120,21 +120,21 @@
         };
 
         layer_2 {
-                    bindings = <
-                        //トラックボール
-                        &trans
-                        &trans
-                        &trans
-                        &trans
-                        &trans
-                        //クリック
-                        &trans
-                        &mkp MCLK
-                        //NFC
-                        &trans
-                        &trans
-                    >;
-                };
+            bindings = <
+                //トラックボール
+                &trans
+                &trans
+                &trans
+                &trans
+                &trans
+                //クリック
+                &trans
+                &mkp MCLK
+                //NFC
+                &trans
+                &trans
+            >;
+        };
 
     };
 };
