@@ -98,6 +98,8 @@
                 //NFCfrontbottom
                 &rst 0 MB5
                 &bot 0 MB4
+                //add
+                &kp SPACE
             >;
 
         };
@@ -116,6 +118,7 @@
                 //NFC
                 &trans
                 &trans
+                &trans
             >;
         };
 
@@ -131,6 +134,7 @@
                 &trans
                 &mkp MCLK
                 //NFC
+                &trans
                 &trans
                 &trans
             >;
