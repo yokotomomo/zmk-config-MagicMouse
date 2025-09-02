@@ -86,59 +86,11 @@
 
         default_layer {
             bindings = <
-                //トラックボール
-                &Ds
-                &Rs
-                &Us 
-                &mo 2
-                &Ls
-                //クリックLR
-                &mo 1
-                &mkp RCLK
-                //NFCfrontbottom
-                &rst 0 MB5
-                &bot 0 MB4
-                //add
-                &kp SPACE
-            >;
-
-        };
-
-        layer_1 {
-            bindings = <
-                //トラックボール
-                &trans
-                &trans
-                &trans
-                &trans
-                &trans
-                //クリック
-                &trans
                 &mkp LCLK
-                //NFC
-                &trans
-                &trans
-                &trans
             >;
+
         };
 
-        layer_2 {
-            bindings = <
-                //トラックボール
-                &trans
-                &trans
-                &trans
-                &trans
-                &trans
-                //クリック
-                &trans
-                &mkp MCLK
-                //NFC
-                &trans
-                &trans
-                &trans
-            >;
-        };
 
     };
 };
