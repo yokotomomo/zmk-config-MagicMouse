@@ -1,5 +1,5 @@
 config ZMK_KEYBOARD_NAME
-    default "MagicMouse2"
+    default "MagicMouseX"
 
 config SPI
 	default y
