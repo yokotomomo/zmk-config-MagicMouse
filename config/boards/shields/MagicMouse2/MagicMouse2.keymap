@@ -86,6 +86,7 @@
 
         default_layer {
             bindings = <
+                 &mkp LCLK
                 &none
             >;
 
